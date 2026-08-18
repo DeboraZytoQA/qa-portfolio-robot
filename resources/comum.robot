@@ -12,6 +12,7 @@ ${BROWSER}     headlesschrome
 Abrir Navegador
     Open Browser    ${URL}    ${BROWSER}
     Set Window Size    1366    768
+    Set Selenium Implicit Wait    5s
 
 Fazer Login
     [Documentation]    Preenche usuário e senha e clica em entrar.
