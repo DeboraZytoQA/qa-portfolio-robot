@@ -4,7 +4,7 @@ Documentation    Casos de teste da tela de login do Sauce Demo (https://www.sauc
 Resource         ../resources/comum.robot
 Suite Setup      Abrir Navegador
 Suite Teardown   Close All Browsers
-Test Setup       Preparar Pagina De Login
+Test Setup       Go To    ${URL}
 
 
 * Test Cases *
