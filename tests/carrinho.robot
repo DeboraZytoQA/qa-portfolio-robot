@@ -8,8 +8,8 @@ Test Setup       Login Padrao
 
 * Keywords *
 Login Padrao
-    [Documentation]    Vai até a página, garante sessão limpa e loga com o usuário padrão antes de cada teste.
-    Preparar Pagina De Login
+    [Documentation]    Vai até a página e loga com o usuário padrão antes de cada teste.
+    Go To    ${URL}
     Fazer Login    standard_user    secret_sauce
     Wait Until Element Is Visible    class:title    timeout=10s
 
