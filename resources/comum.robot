@@ -20,9 +20,3 @@ Fazer Login
     Input Text        id:user-name    ${usuario}
     Input Password    id:password     ${senha}
     Click Button       id:login-button
-
-Preparar Pagina De Login
-    [Documentation]    Garante que cada teste começa do zero, sem sessão anterior.
-    Go To    ${URL}
-    Delete All Cookies
-    Reload Page
