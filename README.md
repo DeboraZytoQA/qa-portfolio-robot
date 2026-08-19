@@ -6,7 +6,7 @@
 
 
 
-Versão do meu portfólio de automação usando *Robot Framework* — uma ferramenta muito usada em times de QA por ter uma sintaxe legível, próxima da linguagem natural, o que facilita a leitura dos testes até por quem não é da área técnica.
+Versão do meu portfólio de automação usando *Robot Framework*  uma ferramenta muito usada em times de QA por ter uma sintaxe legível, próxima da linguagem natural, o que facilita a leitura dos testes até por quem não é da área técnica.
 
 ## 🖥️ Site testado
 
