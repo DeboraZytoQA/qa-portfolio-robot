@@ -11,6 +11,7 @@ Login Padrao
     Abrir Navegador
     Fazer Login    standard_user    secret_sauce
     Wait Until Element Is Visible    class:title    timeout=10s
+Sleep 1s
 
 
 * Test Cases *
