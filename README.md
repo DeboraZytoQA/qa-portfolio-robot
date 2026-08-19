@@ -2,7 +2,7 @@
 
 
 
-![Testes](https://github.com/SEU-USUARIO/qa-portfolio-robot/actions/workflows/tests.yml/badge.svg)
+![Testes](https://github.com/DeboraZytoQA/qa-portfolio-robot/actions/workflows/tests.yml/badge.svg)
 
 
 
