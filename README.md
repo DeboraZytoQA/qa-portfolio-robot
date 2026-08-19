@@ -1,4 +1,4 @@
- # 🤖 Portfólio de QA — Testes Automatizados com Robot Framework
+ # 🤖 Portfólio de QA. Testes Automatizados com Robot Framework
 
 
 
