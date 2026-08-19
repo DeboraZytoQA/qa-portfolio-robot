@@ -1,10 +1,10 @@
+
 * Settings *
 Documentation    Casos de teste da tela de login do Sauce Demo (https://www.saucedemo.com).
 ...              Site oficial da Sauce Labs para prática de automação de testes.
 Resource         ../resources/comum.robot
-Suite Setup      Abrir Navegador
-Suite Teardown   Close All Browsers
-Test Setup       Go To    ${URL}
+Test Setup       Abrir Navegador
+Test Teardown    Close All Browsers
 
 
 * Test Cases *
