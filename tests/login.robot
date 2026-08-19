@@ -23,7 +23,8 @@ CT03 - Login Com Senha Invalida Nao Deve Permitir Acesso
     [Documentation]    Senha incorreta não deve permitir login.
     Fazer Login    standard_user    senha_errada
     Wait Until Element Contains    css:[data-test="error"]    do not match    timeout=10s
-    Location Should Not Contain    inventory.html
+   ${local}    Get Location
+   Should Not Contain    ${local}    inventory.html
 
 CT04 - Login Sem Preencher Usuario Deve Exibir Erro
     [Documentation]    O campo de usuário é obrigatório.
