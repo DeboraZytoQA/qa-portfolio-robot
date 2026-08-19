@@ -1,15 +1,14 @@
 * Settings *
 Documentation    Casos de teste do carrinho de compras do Sauce Demo.
 Resource         ../resources/comum.robot
-Suite Setup      Abrir Navegador
-Suite Teardown   Close All Browsers
 Test Setup       Login Padrao
+Test Teardown    Close All Browsers
 
 
 * Keywords *
 Login Padrao
-    [Documentation]    Vai até a página e loga com o usuário padrão antes de cada teste.
-    Go To    ${URL}
+    [Documentation]    Abre o navegador e loga com o usuário padrão antes de cada teste.
+    Abrir Navegador
     Fazer Login    standard_user    secret_sauce
     Wait Until Element Is Visible    class:title    timeout=10s
 
