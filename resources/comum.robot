@@ -21,3 +21,4 @@ Fazer Login
     Input Password    id:password     ${senha}
     Click Button       id:login-button
     Sleep  1s 
+    Log Source
